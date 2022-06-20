@@ -1564,3 +1564,93 @@ AttributeError: Bar has no attribute: has_keyboard
 2022-06-21 00:25:29,081 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
 2022-06-21 00:25:39,190 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
 2022-06-21 00:27:15,355 ERROR libqtile manager.py:process_key_event():L392 KB command error togroup: No object window in path 'window'
+2022-06-21 00:51:27,291 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-21 00:52:33,792 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 00:53:27,397 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 00:54:45,057 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 00:55:42,600 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 00:57:21,459 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 00:57:31,470 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 01:01:10,522 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:02:17,471 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:04:32,579 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:05:34,874 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:08:15,567 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:14:20,522 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:14:37,596 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:15:22,973 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:23:06,523 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:24:18,315 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:25:01,514 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:26:36,344 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:28:17,253 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:29:10,295 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-21 01:32:06,307 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:33:10,648 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:33:24,954 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 01:33:25,818 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 01:33:26,660 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 01:33:39,913 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-21 01:34:19,188 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 01:34:19,959 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 01:34:58,055 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
