@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/jorge/Documentos" added="2022-06-18T01:46:27.018125Z" modified="2022-06-20T17:45:36.965346Z" visited="2022-06-18T01:46:27.018128Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-18T01:46:27.018134Z" count="1"/>
+          <bookmark:application name="unityhub-bin" exec="&apos;unityhub-bin %u&apos;" modified="2022-06-20T17:45:36.965333Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/Linux%20avanzado%20de%20la%20forma%20m%C3%A1s%20simple.zip" added="2022-06-18T10:25:50.729659Z" modified="2022-06-18T10:25:50.980298Z" visited="2022-06-18T10:25:50.729661Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:25:50.980294Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/UbuntuMono.zip" added="2022-06-18T10:50:26.412613Z" modified="2022-06-18T10:50:26.662738Z" visited="2022-06-18T10:50:26.412615Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:50:26.662732Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/Agave.zip" added="2022-06-18T10:50:37.977827Z" modified="2022-06-18T10:50:38.229266Z" visited="2022-06-18T10:50:37.977830Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:50:38.229242Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/CascadiaCode.zip" added="2022-06-18T10:50:46.943418Z" modified="2022-06-18T10:50:47.194343Z" visited="2022-06-18T10:50:46.943421Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:50:47.194334Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/CodeNewRoman.zip" added="2022-06-18T10:50:54.800627Z" modified="2022-06-18T10:50:55.051729Z" visited="2022-06-18T10:50:54.800630Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:50:55.051723Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/FiraCode.zip" added="2022-06-18T10:51:09.434746Z" modified="2022-06-18T10:51:09.684972Z" visited="2022-06-18T10:51:09.434747Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:51:09.684969Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/JetBrainsMono.zip" added="2022-06-18T10:51:29.827154Z" modified="2022-06-18T10:51:30.077397Z" visited="2022-06-18T10:51:29.827157Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:51:30.077390Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/Mononoki.zip" added="2022-06-18T10:51:46.461185Z" modified="2022-06-18T10:51:46.711667Z" visited="2022-06-18T10:51:46.461187Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T10:51:46.711660Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/Material-Black-Cherry-3.36_1.9.3.zip" added="2022-06-18T14:01:05.496436Z" modified="2022-06-18T14:01:05.746552Z" visited="2022-06-18T14:01:05.496438Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-18T14:01:05.746547Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/ENTREGA%20Unity.rar" added="2022-06-20T18:06:26.649157Z" modified="2022-06-20T18:06:51.611618Z" visited="2022-06-20T18:06:26.649162Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-20T18:06:26.898899Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2022-06-20T18:06:51.611616Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Documentos/FINAL" added="2022-06-20T18:07:34.263639Z" modified="2022-06-20T18:07:34.263645Z" visited="2022-06-20T18:07:34.263640Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="unityhub-bin" exec="&apos;unityhub-bin %u&apos;" modified="2022-06-20T18:07:34.263642Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jorge/Documentos/FINAL/Assets/Scripts/Bandera.cs" added="2022-06-20T18:18:24.559037Z" modified="2022-06-20T18:18:24.559041Z" visited="2022-06-20T18:18:24.559038Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csharp"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-06-20T18:18:24.559040Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

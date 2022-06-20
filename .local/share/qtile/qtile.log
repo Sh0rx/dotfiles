@@ -1,0 +1,1566 @@
+2022-06-18 16:10:02,484 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:10:02,535 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:25:48,124 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:25:49,870 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:25:49,900 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:26:48,467 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:26:48,468 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:26:52,212 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:26:52,213 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:26:53,344 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:26:53,345 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:26:57,615 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:26:57,615 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:27:01,291 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:27:01,291 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:27:02,178 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:27:02,178 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:27:02,494 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-18 16:27:02,495 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-18 16:27:12,814 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:27:14,392 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:27:14,429 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:27:21,613 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:27:23,138 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:27:23,169 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:27:33,724 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:27:35,438 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:27:35,468 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:27:45,691 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:27:47,097 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:27:47,128 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:28:01,305 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:28:02,713 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:28:02,745 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:28:13,292 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:28:14,823 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:28:14,856 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:28:24,058 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:28:25,637 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:28:25,671 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:31:09,105 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:31:10,520 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:31:10,553 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:31:20,188 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:31:21,585 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:31:21,616 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:33:21,115 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:33:22,846 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-18 16:33:22,877 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-18 16:33:57,821 ERROR libqtile manager.py:process_key_event():L392 KB command error left: No such command
+2022-06-18 16:33:58,141 ERROR libqtile manager.py:process_key_event():L392 KB command error left: No such command
+2022-06-18 16:33:58,720 ERROR libqtile manager.py:process_key_event():L392 KB command error left: No such command
+2022-06-18 16:34:02,293 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-18 16:42:53,577 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-18 16:45:25,846 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 16:52:01,498 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:11:03,939 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:11:39,879 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:14:41,671 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:14:59,538 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:17:12,271 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:17:26,976 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:17:29,186 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-18 17:18:59,041 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:20:10,706 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:29,784 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:20:56,645 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:56,926 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:57,134 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:57,323 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:57,506 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:57,673 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:20:57,901 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:22:35,375 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 17:23:06,969 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:24:37,643 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:28:25,313 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 17:33:44,068 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:33:53,917 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 17:33:58,506 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:34:46,868 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:37:21,562 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:37:59,839 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 17:51:36,888 ERROR libqtile manager.py:process_key_event():L392 KB command error togroup: No object window in path 'window'
+2022-06-18 17:51:39,143 ERROR libqtile manager.py:process_key_event():L392 KB command error togroup: No object window in path 'window'
+2022-06-18 18:04:19,547 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 18:14:42,549 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 18:16:22,248 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 18:17:48,032 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 18:18:44,862 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 18:23:09,392 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 610, in poll_for_event
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,393 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 610, in poll_for_event
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,398 ERROR libqtile loop.py:_handle_exception():L63 xcb connection errors because of socket, pipe and other stream errors.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/sep.py", line 57, in draw
+    self.drawer.draw(offsetx=self.offset, offsety=self.offsety, width=self.length)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/base.py", line 784, in draw
+    self._draw(offsetx, offsety, width, height)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 156, in _draw
+    self.qtile.core.conn.conn.core.CopyArea(  # type: ignore
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,400 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 240, in finalize
+    self.drawer.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 35, in finalize
+    self._free_pixmap()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 115, in _free_pixmap
+    self.qtile.core.conn.conn.core.FreePixmap(self._pixmap)
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2863, in FreePixmap
+    return self.send_request(54, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,403 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,403 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,421 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-18 18:23:09,442 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 19:42:59,868 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 19:48:31,086 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 19:51:35,372 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-18 19:54:17,974 ERROR libqtile manager.py:process_button_click():L722 Mouse command error get_position: No object window in path 'window'
+2022-06-18 19:54:18,110 ERROR libqtile manager.py:process_button_click():L722 Mouse command error get_position: No object window in path 'window'
+2022-06-18 20:13:24,172 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 20:22:11,625 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 20:23:57,182 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 20:24:17,013 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-18 20:26:11,279 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 20:26:17,607 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 20:26:21,698 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 20:32:34,457 ERROR libqtile manager.py:process_key_event():L392 KB command error togroup: No object window in path 'window'
+2022-06-18 20:34:47,332 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 20:35:45,346 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-18 21:10:31,561 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-18 21:20:19,904 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:24,312 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:26,217 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:26,866 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:27,099 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:27,262 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:27,428 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:27,596 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:27,765 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:28,020 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:28,210 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:28,376 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:29,381 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:30,731 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:31,006 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:31,159 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:39,480 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:40,479 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-18 21:20:49,682 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:49,866 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:50,039 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:20:50,712 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:28,933 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:29,201 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:29,428 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:29,617 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:29,813 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:30,681 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:31,266 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:31,691 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:32,128 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:32,688 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:33,179 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:33,430 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:33,721 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:34,088 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:34,402 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:34,788 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:35,365 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:36,814 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:37,128 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:21:37,463 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-18 21:24:57,220 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-19 03:36:05,211 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-19 04:23:43,701 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 658, in wait_for_reply
+    self._process_error(error_p[0])
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 645, in _process_error
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 381, in get_property
+    ).reply()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 332, in reply
+    data = self.conn.wait_for_reply(self.sequence)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:43,807 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,018 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 240, in finalize
+    self.drawer.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 35, in finalize
+    self._free_pixmap()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 115, in _free_pixmap
+    self.qtile.core.conn.conn.core.FreePixmap(self._pixmap)
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2863, in FreePixmap
+    return self.send_request(54, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,019 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,019 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,020 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,020 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,022 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,023 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,023 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,024 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 536, in update
+    self.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 503, in draw
+    self.drawer.draw(offsetx=self.offsetx, offsety=self.offsety, width=self.width)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/base.py", line 784, in draw
+    self._draw(offsetx, offsety, width, height)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 156, in _draw
+    self.qtile.core.conn.conn.core.CopyArea(  # type: ignore
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,027 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:23:44,027 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-19 04:24:40,986 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-19 04:28:30,193 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/systray.py", line 286, in finalize
+    self.conn.conn.flush()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:28:30,194 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:28:30,195 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:28:30,196 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:28:30,197 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 04:28:30,198 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-19 14:07:00,059 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-19 17:05:17,273 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 658, in wait_for_reply
+    self._process_error(error_p[0])
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 645, in _process_error
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 381, in get_property
+    ).reply()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 332, in reply
+    data = self.conn.wait_for_reply(self.sequence)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,375 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 240, in finalize
+    self.drawer.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 35, in finalize
+    self._free_pixmap()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 115, in _free_pixmap
+    self.qtile.core.conn.conn.core.FreePixmap(self._pixmap)
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2863, in FreePixmap
+    return self.send_request(54, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,377 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,377 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,377 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,378 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,378 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,380 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-19 17:05:17,381 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 17:33:26,769 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 17:33:31,034 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-20 17:33:34,759 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 20:43:29,229 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-20 20:43:29,651 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-20 20:43:30,867 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-20 20:44:14,976 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/systray.py", line 286, in finalize
+    self.conn.conn.flush()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-20 20:44:14,981 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-20 20:44:14,981 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-20 20:44:14,984 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-20 20:44:14,989 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-20 20:44:14,992 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 21:33:22,782 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 21:40:40,367 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:40:40,367 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:40:44,504 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:40:44,505 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:40:49,607 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:40:49,607 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:40:52,513 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:40:52,513 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:01,389 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:01,390 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:14,051 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:14,051 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:15,591 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:15,592 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:17,189 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:17,189 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:17,408 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:17,408 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:17,624 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:17,624 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:17,839 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:17,839 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:18,056 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:18,056 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:18,272 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:18,272 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:40,205 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:40,206 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:41:42,032 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:41:42,033 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:42:00,326 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:42:00,326 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:42:03,027 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:42:03,027 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:42:28,007 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:42:28,008 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:42:34,310 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:42:34,310 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:42:58,857 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:42:58,857 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:43:40,157 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:43:40,157 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:45:01,399 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:45:01,399 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:45:05,695 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax. Perhaps you forgot a comma? (widgets.py, line 116)
+2022-06-20 21:45:05,695 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:45:08,639 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 21:45:17,199 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:47:21,355 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:47:21,355 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:47:24,745 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:47:24,745 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:47:26,217 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:47:26,218 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:47:29,370 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 21:47:35,540 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:48:45,984 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:48:45,984 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:48:47,639 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:48:47,640 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:48:48,276 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:48:48,276 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 21:48:51,303 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 21:48:51,303 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:00:57,254 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:00:57,255 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:00:59,945 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:00:59,945 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:03,833 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:03,833 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:05,385 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:05,386 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:05,548 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:05,549 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:05,694 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:05,695 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:05,847 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:05,847 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:05,984 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:05,984 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:06,120 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:06,121 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:06,253 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:06,254 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:07,246 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:07,247 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:07,474 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:07,475 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:07,613 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:07,614 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:07,777 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:07,777 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:07,920 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:07,920 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:09,189 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:01:09,190 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:42,991 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 22:01:50,010 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:01:58,658 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 22:03:05,050 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:05:44,439 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 22:08:00,106 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:08:15,358 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 22:14:07,599 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:14:14,240 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `asd`
+2022-06-20 22:17:09,979 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:17:09,980 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:17:13,415 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:17:13,415 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:17:13,560 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:17:13,561 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:17:13,726 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: 'list' object is not callable
+2022-06-20 22:17:13,727 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:17:14,697 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 22:17:21,485 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:17:21,502 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:18:25,259 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:18:26,118 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:18:26,138 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:18:28,596 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:18:29,474 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:18:29,503 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:18:32,265 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:18:33,133 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:18:33,174 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:18:41,390 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:18:42,260 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:18:42,296 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:18:44,031 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-20 22:18:44,033 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:18:44,868 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:18:44,892 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:18:55,891 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:18:56,741 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:18:56,779 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:19:04,602 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:19:05,467 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:19:05,483 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:19:07,420 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:19:08,274 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:19:08,306 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:19:10,680 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:19:11,534 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:19:11,561 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:19:12,939 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-20 22:19:19,335 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:19:19,348 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:19:25,619 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-20 22:20:42,362 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:20:43,217 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:20:43,235 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:21:26,211 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:21:27,232 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:21:27,247 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:21:39,144 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:21:40,135 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:21:40,151 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:21:43,382 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:21:44,366 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:21:44,471 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:21:59,676 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:21:59,676 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:03,990 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:03,990 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:05,836 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:05,836 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:06,069 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:06,070 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:06,292 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:06,292 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:06,523 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:06,524 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:07,041 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:07,041 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:07,573 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:07,573 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:07,858 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:07,858 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:08,073 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:08,073 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:08,289 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:08,290 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:08,508 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:08,508 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:08,725 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: "/home/jorge/.config/qtile/themes/mononaki-pro.json" does not exist
+2022-06-20 22:22:08,725 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:22:25,156 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:22:26,164 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:22:26,179 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:22:43,196 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:22:44,167 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:22:44,187 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:27:15,951 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:27:16,923 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:27:16,945 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:27:22,522 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:27:23,448 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:27:23,579 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:28:08,961 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:28:09,956 ERROR libqtile net.py:poll():L167 Net: Caught Exception:
+'wlo1'
+2022-06-20 22:28:09,975 WARNING libqtile base.py:on_done():L637 poll() returned None, not rescheduling
+2022-06-20 22:28:54,692 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:31:34,835 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:33:37,376 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:34:19,187 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:34:55,614 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:35:24,312 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:35:43,932 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:37:56,630 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:38:07,892 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:39:02,851 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:39:14,884 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:39:55,361 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:40:35,458 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:40:39,143 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:41:04,053 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:41:10,627 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:42:05,439 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:42:48,722 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:45:19,538 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:45:23,459 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:45:27,429 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:45:46,867 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:46:23,489 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:46:23,490 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:46:26,065 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:46:26,065 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:46:27,578 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:46:27,579 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:46:30,334 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:46:30,334 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:46:32,033 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:46:32,033 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:46:33,552 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:46:33,552 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:46:45,663 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:47:02,153 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:47:02,153 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:02,934 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:47:02,934 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:03,050 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:47:03,050 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:03,169 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:47:03,169 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:05,065 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:47:05,065 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:05,183 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'foreground'
+2022-06-20 22:47:05,183 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:38,888 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'background'
+2022-06-20 22:47:38,888 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:39,552 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'background'
+2022-06-20 22:47:39,552 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:39,698 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: libqtile.widget.battery.Battery() got multiple values for keyword argument 'background'
+2022-06-20 22:47:39,699 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:47:48,435 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:47:49,345 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:47:49,568 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:47:50,542 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:47:55,864 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:47:56,804 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:47:57,014 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:47:57,893 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:47:58,199 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:48:00,718 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:48:04,096 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:48:05,159 ERROR libqtile loop.py:_handle_exception():L63 RGB specifier must be 6 or 8 characters long.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 478, in draw
+    self.drawer.clear(self.background or self.bar.background)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 183, in clear
+    self.set_source_rgb(colour, ctx=ctx)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 189, in set_source_rgb
+    if utils.has_transparency(colour) and self._depth != 32:
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 133, in has_transparency
+    return has_alpha(colour)
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 130, in has_alpha
+    return rgb(col)[3] < 1
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 107, in rgb
+    raise ValueError("RGB specifier must be 6 or 8 characters long.")
+ValueError: RGB specifier must be 6 or 8 characters long.
+2022-06-20 22:48:06,273 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:48:09,025 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:48:20,405 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:48:27,614 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:49:34,862 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: 'ffffff'
+2022-06-20 22:49:34,863 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:49:36,716 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: 'ffffff'
+2022-06-20 22:49:36,716 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:49:36,877 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: 'ffffff'
+2022-06-20 22:49:36,878 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:49:37,053 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: 'ffffff'
+2022-06-20 22:49:37,053 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-20 22:49:43,180 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:50:08,843 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:50:39,730 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:53:22,726 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:53:46,888 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:53:55,930 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:54:42,313 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:54:54,844 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:55:16,553 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 22:55:32,787 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-20 23:07:20,308 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:07:24,965 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:02,593 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:02,929 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:03,659 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:09,114 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:09,462 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:09,864 ERROR libqtile manager.py:process_key_event():L392 KB command error left: No such command
+2022-06-20 23:08:10,036 ERROR libqtile manager.py:process_key_event():L392 KB command error right: No such command
+2022-06-20 23:08:14,613 ERROR libqtile manager.py:process_key_event():L392 KB command error kill: No object window in path 'window'
+2022-06-20 23:39:30,441 ERROR libqtile core.py:_xpoll():L335 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 303, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 1151, in handle_KeyPress
+    self.process_key_press(keysym)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 524, in process_key_press
+    if self.has_keyboard:
+  File "/usr/lib/python3.10/site-packages/libqtile/configurable.py", line 48, in __getattr__
+    raise AttributeError("%s has no attribute: %s" % (cname, name))
+AttributeError: Bar has no attribute: has_keyboard
+2022-06-21 00:25:29,081 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-21 00:25:39,190 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-21 00:27:15,355 ERROR libqtile manager.py:process_key_event():L392 KB command error togroup: No object window in path 'window'

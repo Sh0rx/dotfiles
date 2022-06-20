@@ -1,0 +1,160 @@
+[ 20/06/22 22:19:17.588 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+File does not exist: /home/jorge/.config/autostart/arcolinux-welcome-app.desktop
+Could not find Xinerama screen number 1
+Could not find Xinerama screen number 2
+Could not find Xinerama screen number 3
+
+** (xfce4-power-manager:12528): WARNING **: 22:19:18.324: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:12528): WARNING **: 22:19:18.329: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+(xfce4-power-manager:12528): xfce4-power-manager-WARNING **: 22:19:18.329: Unable to connect to session manager : No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(xfce4-power-manager:12528): GLib-GObject-WARNING **: 22:19:18.374: ../glib/gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0x5645d4f05870' of type 'GDBusProxy'
+
+** (xfce4-clipman:12529): WARNING **: 22:19:18.419: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:12529): GLib-GIO-CRITICAL **: 22:19:18.420: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:12529): GLib-WARNING **: 22:19:18.420: g_set_application_name() called multiple times
+
+(xfce4-power-manager:12528): xfce4-power-manager-WARNING **: 22:19:18.502: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:12528): WARNING **: 22:19:18.644: could not get output property
+
+(xfce4-power-manager:12528): xfce4-power-manager-WARNING **: 22:19:18.656: It seems the kernel brightness switch handling value was not restored properly on exit last time, xfce4-power-manager will try to restore it this time.
+xfce4-power-manager-Message: 22:19:18.692: Set kernel brightness switch to 0
+
+(xfce4-power-manager:12528): xfce4-power-manager-WARNING **: 22:19:18.700: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: El objeto no existe en la ruta «/org/freedesktop/UPower/KbdBacklight»
+File does not exist: /home/jorge/.config/autostart/arcolinux-welcome-app.desktop
+
+(volumeicon:12525): Gdk-CRITICAL **: 22:19:19.379: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(udiskie:12531): Gdk-CRITICAL **: 22:19:19.380: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(xfce4-clipman:12529): GLib-CRITICAL **: 22:23:07.534: Source ID 56 was not found when attempting to remove it
+
+(xfce4-power-manager:12528): GLib-CRITICAL **: 22:32:06.346: Source ID 449 was not found when attempting to remove it
+
+(xfce4-clipman:12529): GLib-CRITICAL **: 23:06:52.339: Source ID 676 was not found when attempting to remove it
+
+(xfce4-clipman:12529): Gtk-CRITICAL **: 23:11:35.796: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+
+(xfce4-clipman:12529): GLib-CRITICAL **: 23:11:36.048: Source ID 694 was not found when attempting to remove it
+
+(xfce4-clipman:12529): Gtk-CRITICAL **: 23:13:08.885: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+
+(xfce4-clipman:12529): GLib-CRITICAL **: 23:13:09.137: Source ID 842 was not found when attempting to remove it
+
+** (volumeicon:12525): WARNING **: 23:18:22.426: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:18:24.615: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:21:58.824: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:21:58.997: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:39:04.864: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:39:05.145: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:39:16.986: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:39:17.370: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:39:48.615: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:39:51.884: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:43:50.921: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:43:57.306: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:47.905: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:48.288: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:48.700: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:49.327: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:49.484: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.014: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.137: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.201: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.296: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.355: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.445: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.517: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.593: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.680: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.748: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.826: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.930: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:50.998: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:51.123: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:51.733: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:51.816: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:51.894: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:51.990: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.020: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.126: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.205: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.497: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.611: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.745: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.827: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:52.893: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:53.124: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:53.274: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:55:55.747: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:56:48.752: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 23:56:49.930: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 00:04:33.115: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 00:04:33.703: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 00:05:40.377: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 00:05:41.116: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 00:12:22.913: Binding 'AudioMute' failed!
+
+** (volumeicon:12525): WARNING **: 00:12:22.952: Binding 'AudioMute' failed!
+
+(xfce4-clipman:12529): GLib-CRITICAL **: 00:25:42.495: Source ID 1144 was not found when attempting to remove it
