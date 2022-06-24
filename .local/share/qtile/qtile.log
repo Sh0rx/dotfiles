@@ -1654,3 +1654,1005 @@ Traceback (most recent call last):
     raise AttributeError("%s has no attribute: %s" % (cname, name))
 AttributeError: Bar has no attribute: has_keyboard
 2022-06-21 01:34:58,055 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-22 22:17:29,868 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/systray.py", line 286, in finalize
+    self.conn.conn.flush()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,869 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,869 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,870 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,871 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,871 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,872 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-22 22:17:29,873 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-23 19:53:58,705 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:00,474 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:00,640 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:00,822 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:02,516 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:02,692 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:02,866 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:03,041 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:07,076 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 19:54:07,262 ERROR libqtile manager.py:process_key_event():L392 KB command error shrink: No such command
+2022-06-23 20:01:46,551 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:01:55,316 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:01:55,911 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-23 20:01:55,963 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-23 20:01:55,965 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-23 20:01:57,119 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-23 20:01:57,120 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-r'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-r
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-r
+2022-06-23 20:03:40,477 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:04:08,297 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:04:12,301 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:04:29,086 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:04:44,468 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:05:00,406 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:05:20,194 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:06:14,486 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:06:37,839 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:06:53,083 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-23 20:06:53,650 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-23 20:06:53,704 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-right'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-23 20:06:53,707 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-right'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-23 20:06:55,018 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-right'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-23 20:06:55,019 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 813, in translate_masks
+    masks.append(ModMasks[i])
+KeyError: 'control-right'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 445, in lookup_key
+    modmask = xcbq.translate_masks(key.modifiers)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 815, in translate_masks
+    raise XCBQError("Unknown modifier: %s" % i) from e
+libqtile.backend.x11.xcbq.XCBQError: Unknown modifier: control-right
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown modifier: control-right
+2022-06-23 20:36:16,809 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 658, in wait_for_reply
+    self._process_error(error_p[0])
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 645, in _process_error
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 381, in get_property
+    ).reply()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 332, in reply
+    data = self.conn.wait_for_reply(self.sequence)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-23 20:36:16,811 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 240, in finalize
+    self.drawer.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 35, in finalize
+    self._free_pixmap()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 115, in _free_pixmap
+    self.qtile.core.conn.conn.core.FreePixmap(self._pixmap)
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2863, in FreePixmap
+    return self.send_request(54, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-23 20:36:16,812 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-23 20:36:16,812 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-23 20:36:16,814 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-23 20:36:16,815 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-24 00:39:36,602 ERROR libqtile manager.py:cmd_spawn():L1143 couldn't find `arcolinux-logout`
+2022-06-24 00:42:49,261 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-24 00:47:46,704 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-24 00:48:01,149 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-24 00:54:45,364 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:45,364 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:48,849 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:48,850 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:49,064 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:49,064 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:49,283 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:49,283 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:49,498 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:49,498 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:49,718 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:49,719 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:49,939 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:49,939 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:50,167 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:50,167 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:50,384 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:50,384 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:50,617 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:50,617 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:50,850 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: invalid syntax (keys.py, line 82)
+2022-06-24 00:54:50,850 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:58,611 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:54:58,611 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:54:59,476 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:54:59,476 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:06,585 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:06,585 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:08,302 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:08,302 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:08,519 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:08,519 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:08,736 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:08,736 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:08,952 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:08,952 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:23,674 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:23,674 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:24,841 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:24,841 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:25,055 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:25,056 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:25,274 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:25,274 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:25,491 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:25,491 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:25,705 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:25,705 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:25,922 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:25,922 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:26,141 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:26,142 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:26,356 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:26,356 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:26,576 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:26,576 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:26,791 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:26,792 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:27,009 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:27,010 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:27,228 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:27,228 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:27,463 ERROR libqtile manager.py:cmd_restart():L1115 Preventing restart because of a configuration error: name 'true' is not defined
+2022-06-24 00:55:27,464 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:55:27,673 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-24 00:55:32,734 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 00:56:30,998 ERROR libqtile core.py:_xpoll():L327 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 610, in poll_for_event
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,000 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 610, in poll_for_event
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 289, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,006 ERROR libqtile loop.py:_handle_exception():L63 xcb connection errors because of socket, pipe and other stream errors.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 845, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/bar.py", line 614, in _actual_draw
+    i.draw()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 503, in draw
+    self.drawer.draw(offsetx=self.offsetx, offsety=self.offsety, width=self.width)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/base.py", line 784, in draw
+    self._draw(offsetx, offsety, width, height)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 156, in _draw
+    self.qtile.core.conn.conn.core.CopyArea(  # type: ignore
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,017 ERROR libqtile manager.py:_finalize_configurables():L295 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 283, in _finalize_configurables
+    widget.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 240, in finalize
+    self.drawer.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 35, in finalize
+    self._free_pixmap()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/drawer.py", line 115, in _free_pixmap
+    self.qtile.core.conn.conn.core.FreePixmap(self._pixmap)
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2863, in FreePixmap
+    return self.send_request(54, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,019 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,022 ERROR libqtile core.py:get_interesting_pid():L810 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 808, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 293, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/window.py", line 374, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,026 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 220, in async_loop
+    self.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 300, in finalize
+    self.core.finalize()
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 165, in finalize
+    self.conn.conn.core.DeletePropertyChecked(
+  File "/usr/lib/python3.10/site-packages/xcffib/xproto.py", line 2716, in DeleteProperty
+    return self.send_request(19, buf, is_checked=is_checked)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.10/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2022-06-24 00:56:31,027 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-06-24 01:55:31,406 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 01:58:43,233 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-24 02:00:44,961 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-06-24 02:00:45,507 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-06-24 02:00:45,560 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 444, in lookup_key
+    keysym = xcbq.get_keysym(key.key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 793, in get_keysym
+    raise XCBQError("Unknown key: %s" % key)
+libqtile.backend.x11.xcbq.XCBQError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-24 02:00:45,563 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 444, in lookup_key
+    keysym = xcbq.get_keysym(key.key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 793, in get_keysym
+    raise XCBQError("Unknown key: %s" % key)
+libqtile.backend.x11.xcbq.XCBQError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-24 02:00:45,734 ERROR libqtile base.py:on_done():L635 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 444, in lookup_key
+    keysym = xcbq.get_keysym(key.key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 793, in get_keysym
+    raise XCBQError("Unknown key: %s" % key)
+libqtile.backend.x11.xcbq.XCBQError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 627, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 530, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-06-24 02:00:45,736 ERROR libqtile start.py:start():L94 Qtile crashed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 444, in lookup_key
+    keysym = xcbq.get_keysym(key.key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/xcbq.py", line 793, in get_keysym
+    raise XCBQError("Unknown key: %s" % key)
+libqtile.backend.x11.xcbq.XCBQError: Unknown key: alt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/scripts/start.py", line 92, in start
+    q.loop()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 192, in loop
+    asyncio.run(self.async_loop())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 217, in async_loop
+    self.load_config(initial=True)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 138, in load_config
+    self.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 408, in grab_key
+    keysym, mask_key = self.core.grab_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 453, in grab_key
+    keysym, modmask = self.lookup_key(key)
+  File "/usr/lib/python3.10/site-packages/libqtile/backend/x11/core.py", line 447, in lookup_key
+    raise utils.QtileError(err)
+libqtile.utils.QtileError: Unknown key: alt

@@ -7,7 +7,6 @@
 from libqtile.config import Key
 from libqtile.command import lazy
 
-
 mod = "mod4"
 
 keys = [Key(key[0], key[1], *key[2:]) for key in [
@@ -66,7 +65,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "Return", lazy.spawn("alacritty")),
 
     # Redshift
-    ([mod], "r", lazy.spawn("redshift -O 2400")),
+    ([mod], "r", lazy.spawn("redshift -O 4500")),
     ([mod, "shift"], "r", lazy.spawn("redshift -x")),
 
     # Screenshot
@@ -76,6 +75,10 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     # 4K Monitor
     ([mod, "shift"], "b", lazy.spawn("brave --force-device-scale-factor=1.5")),
     ([mod, "shift"], "c", lazy.spawn("code --force-device-scale-factor=1.5")),
+
+    # Change between layouts
+    ([mod], "l", lazy.spawn("setxkbmap -layout us")),
+    ([mod], "space", lazy.spawn("setxkbmap -layout es")),
 
 
     # ------------ Hardware Configs ------------

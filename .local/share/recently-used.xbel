@@ -138,4 +138,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/jorge/Descargas/RESUMEN%20-%20DISTRIBUIDOS.pdf" added="2022-06-22T21:12:07.215175Z" modified="2022-06-22T21:12:07.466100Z" visited="2022-06-22T21:12:07.215178Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2022-06-22T21:12:07.466092Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
