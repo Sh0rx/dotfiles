@@ -12,5 +12,8 @@ alias dotfiles "git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
 
 starship init fish | source
 
+# Neofetch
+neofetch
+
 # Fix clear in Alacritty
 export TERM=xterm-256color

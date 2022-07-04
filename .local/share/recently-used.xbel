@@ -77,4 +77,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///opt/lampp/htdocs/contacts-app/sql/setup.sql" added="2022-07-04T18:34:35.761813Z" modified="2022-07-04T19:17:06.079693Z" visited="2022-07-04T18:34:35.761814Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-04T19:17:06.079691Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://github.com/mastermindac/curso-php/tree/63818d0d2e2e02206b61818f587b498b533c63c6" added="2022-07-04T19:15:50.440000Z" modified="2022-07-04T19:15:50.440000Z" visited="2022-07-04T19:15:50.440000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="firefox" exec="/usr/lib/firefox/firefox %u %u" modified="2022-07-04T19:15:50.440000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
