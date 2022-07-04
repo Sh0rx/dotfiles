@@ -9,3 +9,6 @@ xrandr --output HDMI-2 --mode 1920x1080 --rate 120 --above eDP-1
 # Arreglar tamaño cursor
 #xrdb ~/.Xresources
 #exec qtile
+
+# Fix wheel speedup in brave-boriwser
+imwheel -b 45

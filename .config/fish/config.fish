@@ -11,3 +11,6 @@ alias dotfiles "git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
 # Prompt
 
 starship init fish | source
+
+# Fix clear in Alacritty
+export TERM=xterm-256color

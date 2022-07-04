@@ -64,3 +64,5 @@ xfce4-power-manager &
 #dropbox &
 
 udiskie -t &
+
+PATH="/opt/lampp/bin:$PATH"

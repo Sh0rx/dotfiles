@@ -1,47 +1,47 @@
-[ 24/06/22 02:01:28.869 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+[ 04/07/22 19:29:36.633 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
 File does not exist: /home/jorge/.config/autostart/arcolinux-welcome-app.desktop
 
-** (xfce4-clipman:6457): WARNING **: 02:01:29.603: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
-
-(xfce4-clipman:6457): GLib-GIO-CRITICAL **: 02:01:29.603: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
-
-(xfce4-clipman:6457): GLib-WARNING **: 02:01:29.603: g_set_application_name() called multiple times
-
-** (xfce4-power-manager:6456): WARNING **: 02:01:29.607: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+** (xfce4-power-manager:95193): WARNING **: 19:29:37.581: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
 
 
-** (xfce4-power-manager:6456): WARNING **: 02:01:29.607: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+** (xfce4-power-manager:95193): WARNING **: 19:29:37.581: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
 
 
-(xfce4-power-manager:6456): xfce4-power-manager-WARNING **: 02:01:29.608: Unable to connect to session manager : No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+(xfce4-power-manager:95193): xfce4-power-manager-WARNING **: 19:29:37.581: Unable to connect to session manager : No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
 
-(xfce4-power-manager:6456): GLib-GObject-WARNING **: 02:01:29.636: ../glib/gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0x55b0e0d5c870' of type 'GDBusProxy'
+(xfce4-power-manager:95193): libnotify-WARNING **: 19:29:37.614: Failed to connect to proxy
 
-(xfce4-power-manager:6456): xfce4-power-manager-WARNING **: 02:01:29.782: could not map keysym 1008ffa8 to keycode
+(xfce4-power-manager:95193): GLib-GObject-WARNING **: 19:29:37.635: ../glib/gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0x5558d93218d0' of type 'GDBusProxy'
+
+** (xfce4-clipman:95194): WARNING **: 19:29:37.732: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:95194): GLib-GIO-CRITICAL **: 19:29:37.732: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:95194): GLib-WARNING **: 19:29:37.732: g_set_application_name() called multiple times
+
+(xfce4-power-manager:95193): xfce4-power-manager-WARNING **: 19:29:37.926: could not map keysym 1008ffa8 to keycode
 
 
-** (xfce4-power-manager:6456): WARNING **: 02:01:29.937: could not get output property
+** (xfce4-power-manager:95193): WARNING **: 19:29:37.970: could not get output property
 
-(xfce4-power-manager:6456): xfce4-power-manager-WARNING **: 02:01:29.952: It seems the kernel brightness switch handling value was not restored properly on exit last time, xfce4-power-manager will try to restore it this time.
-xfce4-power-manager-Message: 02:01:29.995: Set kernel brightness switch to 0
+(xfce4-power-manager:95193): xfce4-power-manager-WARNING **: 19:29:37.984: It seems the kernel brightness switch handling value was not restored properly on exit last time, xfce4-power-manager will try to restore it this time.
+xfce4-power-manager-Message: 19:29:38.024: Set kernel brightness switch to 0
 
-(xfce4-power-manager:6456): xfce4-power-manager-WARNING **: 02:01:30.002: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: El objeto no existe en la ruta «/org/freedesktop/UPower/KbdBacklight»
+(xfce4-power-manager:95193): xfce4-power-manager-WARNING **: 19:29:38.030: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: El objeto no existe en la ruta «/org/freedesktop/UPower/KbdBacklight»
+xrandr: specified screen 1728x972 not large enough for output HDMI-2 (1920x1080+1920+0)
 File does not exist: /home/jorge/.config/autostart/arcolinux-welcome-app.desktop
 X Error of failed request:  BadMatch (invalid parameter attributes)
   Major opcode of failed request:  140 (RANDR)
   Minor opcode of failed request:  29 (RRSetPanning)
-  Serial number of failed request:  37
-  Current serial number in output stream:  37
-xrandr: cannot find mode 1920x1080
+  Serial number of failed request:  40
+  Current serial number in output stream:  40
+INFO: imwheel started (pid=95345)
 
-** (volumeicon:6453): WARNING **: 02:01:31.554: Binding 'AudioRaiseVolume' failed!
+** (volumeicon:95190): WARNING **: 19:29:39.660: Binding 'AudioRaiseVolume' failed!
 Failed to bind AudioRaiseVolume
 
-** (volumeicon:6453): WARNING **: 02:01:31.556: Binding 'AudioLowerVolume' failed!
+** (volumeicon:95190): WARNING **: 19:29:39.660: Binding 'AudioLowerVolume' failed!
 Failed to bind AudioLowerVolume
 
-(udiskie:6459): Gdk-CRITICAL **: 02:01:31.558: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-
-** (volumeicon:6453): WARNING **: 02:01:31.559: Binding 'AudioMute' failed!
+** (volumeicon:95190): WARNING **: 19:29:39.661: Binding 'AudioMute' failed!
 Failed to bind AudioMute
-==> ERROR: Cannot fetch updates
